@@ -11,7 +11,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
       <ImageBackground
         source={images.highlight}
         resizeMode="stretch"
-        className="flex flex-row w-full flex-1 min-w-[120px] min-h-14 mt-6 justify-center items-center rounded-full overflow-hidden">
+        className="flex flex-row w-full flex-1 min-w-[120px] min-h-16 mt-4 justify-center items-center rounded-full overflow-hidden">
         <Image source={icon} tintColor="#151312" className="size-5" />
         <Text className="text-secondary text-base font-semibold ml-2">
           {title}
@@ -43,12 +43,12 @@ const Layout = () => {
           borderRadius: 50,
           marginHorizontal: 20,
           marginBottom: 15,
-          height: 40,
+          height: 52,
           bottom: insets.bottom,
           position: "absolute",
           overflow: "hidden",
-          borderWidth: 0,
-          borderColor: "#0f0d23",
+          borderWidth: 1,
+          // borderColor: "#0f0d23",
         },
       }}>
       <Tabs.Screen
