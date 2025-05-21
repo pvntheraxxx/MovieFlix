@@ -24,14 +24,15 @@
 Ниже — два ключевых сценария использования.
 
 <p align="center">
-  <img src="./screenshots/home-scroll.gif" alt="Главный экран" width="45%" />
+  <img src="./screenshots/home-scroll.gif" alt="Главный экран" width="38%" />
   &nbsp;
-  <img src="./screenshots/search-and-details.gif" alt="Поиск и детали" width="45%" />
+  <img src="./screenshots/search-and-details.gif" alt="Поиск и детали" width="38%" />
 </p>
 
 <p align="center">
   <em>Слева: главный экран | Справа: поиск и просмотр деталей фильма</em>
 </p>
+
 
 ---
 
