@@ -3,7 +3,8 @@ import "dotenv/config";
 export default {
   expo: {
     name: "MovieFlix",
-    slug: "mobile_movie_app",
+    slug: "movieflix",
+    owner: "pvntheraxxx",
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/images/logo.png",
@@ -42,8 +43,18 @@ export default {
       typedRoutes: true,
     },
 
+    updates: {
+      url: "https://u.expo.dev/5bb04344-9264-417c-83c4-35ad9c9855f9",
+    },
+    runtimeVersion: {
+      policy: "appVersion",
+    },
+
     extra: {
       EXPO_PUBLIC_MOVIE_API_KEY: process.env.EXPO_PUBLIC_MOVIE_API_KEY,
+      eas: {
+        projectId: "5bb04344-9264-417c-83c4-35ad9c9855f9",
+      },
     },
   },
 };
