@@ -4,6 +4,7 @@ import useFetch from "@/services/useFetch";
 import { router, useLocalSearchParams } from "expo-router";
 import React from "react";
 import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 interface MovieInfoProps {
   label: string;
@@ -20,13 +21,18 @@ const MovieInfo = ({ label, value }: MovieInfoProps) => (
 );
 
 const MovieDetails = () => {
+  const insets = useSafeAreaInsets();
   const { id } = useLocalSearchParams();
   const { data: movie, loading } = useFetch(() =>
     fetchMovieDetails(id as string)
   );
 
   return (
-    <View className="flex-1 bg-primary">
+    <View
+      className="flex-1 bg-primary"
+      style={{
+        marginBottom: insets.bottom,
+      }}>
       <ScrollView
         className="flex-1"
         contentContainerStyle={{ paddingBottom: 80 }}>
