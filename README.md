@@ -17,7 +17,7 @@
 Ниже — два ключевых сценария использования.
 
 <p align="center">
-  <img src="./screenshots/home-scroll.gif" alt="Главный экран" width="38%" />
+
   &nbsp;
   <img src="./screenshots/search-and-details.gif" alt="Поиск и детали" width="38%" />
 </p>
