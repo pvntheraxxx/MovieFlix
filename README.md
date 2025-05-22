@@ -81,7 +81,10 @@ npm install
 Создай файл .env в корне проекта и добавь в него:
 
 ```
-EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_token
+EXPO_PUBLIC_MOVIE_API_KEY = your_tmdb_token
+EXPO_PUBLIC_APPWRITE_PROJECT_ID = your_appwrite_project_id_token
+EXPO_PUBLIC_APPWRITE_DATABASE_ID = your_appwrite_database_id_token
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID = your_appwrite_collection_id_token
 ```
   🔐 API-ключ можно получить на themoviedb.org
 
