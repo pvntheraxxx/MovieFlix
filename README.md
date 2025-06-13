@@ -67,7 +67,7 @@
 ### 1. 📥 Склонируй репозиторий
 
 ```bash
-git clone https://github.com/pvntheraxxx/movieflix.git
+git clone https://github.com/1kodexxx/movieflix.git
 cd movieflix
 ```
 
